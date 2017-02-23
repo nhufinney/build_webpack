@@ -1,0 +1,21 @@
+{
+  "name": "start-webpack",
+  "version": "1.0.0",
+  "description": "Build a webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "transpiling"
+  ],
+  "author": "Nhu Finney",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

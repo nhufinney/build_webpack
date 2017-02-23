@@ -1,0 +1,7 @@
+.git
+**/.DS_Store
+Exercise Files
+**/npm-debug.log
+**/node_modules
+**/bundle.js
+**/finish
