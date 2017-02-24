@@ -1,0 +1,26 @@
+{
+  "name": "getting-started-webpack",
+  "version": "1.0.0",
+  "description": "Running a build with webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/httpster -d ../start -p 3000"
+  },
+  "keywords": [
+    "webpack",
+    "transpiling",
+    "es6"
+  ],
+  "author": "Nhu",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "httpster": "^1.0.3",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"  
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
