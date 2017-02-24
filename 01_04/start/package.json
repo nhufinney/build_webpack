@@ -4,8 +4,8 @@
   "description": "Running a build with webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "./node_modules/.bin/httpster -d ../start -p 3000
+Starting HTTPster v1.0.3 on port "3000" from ../start",
   "keywords": [
     "webpack",
     "transpiling",
@@ -14,7 +14,9 @@
   "author": "Nhu",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^2.2.1"
+    "httpster": "^1.0.3",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   },
   "dependencies": {
     "jquery": "^3.1.1"
