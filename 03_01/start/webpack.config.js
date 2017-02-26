@@ -3,7 +3,7 @@
 //     return removeUseStrict(content, {force: true});
 // };
 module.exports = {
-	entry: './main.js',
+	entry: './src/main.js',
 	output: {
 		path: 'build',
 		filename: 'bundle.js'
@@ -17,6 +17,10 @@ module.exports = {
 				query: {
 					presets: ['es2015', 'react']
 				}
+			},
+			{
+				test: /\.css$/,
+				loader: 'style-loader!css-loader'
 			}
 		]
 	}
