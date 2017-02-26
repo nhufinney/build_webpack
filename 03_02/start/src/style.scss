@@ -1,7 +1,7 @@
 $grey: #f2f2f2;
-$organce: #ffb84d;
+$light_red: #ffb84d;
 
 div {
-    background-color: grey;
-    color: organce;
+    background-color: $grey;
+    color: $light_red;
 }
